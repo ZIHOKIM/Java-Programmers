@@ -53,4 +53,27 @@ public class JadenCase {
 
         return answer;
     }
+
+    class Solution {
+        public String solution(String s) {
+            StringBuilder sb = new StringBuilder(s);
+            int index = 0;
+            while(index < s.length()){
+
+                while(index<s.length() && s.charAt(index) == ' ') index++;
+                if(index < s.length()){
+                    char ch =  Character.toUpperCase(s.charAt(index));
+                    sb.setCharAt(index, ch);
+                }index++;
+
+                while(index<s.length() && s.charAt(index) != ' '){
+                    char ch =  Character.toLowerCase(s.charAt(index));
+                    sb.setCharAt(index, ch);
+                    index++;
+                }
+            }
+
+            return sb.toString();
+        }
+    }
 }

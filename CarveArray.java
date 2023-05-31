@@ -1,5 +1,5 @@
 
-class Solution {
+class CarveArrays {
     public int[] solution(int[] arr, int[] query) {
         int start =0;
         int end = 0;

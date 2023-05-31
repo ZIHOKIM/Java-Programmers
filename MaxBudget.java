@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-class Solution {
+class MaxBudget {
     public int solution(int[] d, int budget) {
 
         Arrays.sort(d);

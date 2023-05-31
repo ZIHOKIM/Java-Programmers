@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-class Solution {
+class TriangleComplete {
     public int solution(int[] sides) {
         int answer = 1;
         Arrays.sort(sides);

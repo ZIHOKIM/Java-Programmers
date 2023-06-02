@@ -1,4 +1,4 @@
-public class minMax {
+public class MinMax {
     public String solution(String s) {
 
         String answer = "";
